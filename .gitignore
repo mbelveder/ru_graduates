@@ -1,0 +1,11 @@
+data/
+plots/
+**/.DS_Store
+.venv/
+/product
+*.pyc
+*.html
+
+**/__pycache__/
+.pytest_cache
+dist/

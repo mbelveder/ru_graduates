@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ru-graduates"
+version = "0.1.0"
+description = ""
+authors = ["Miсhael Belvedersky <mike.belveder@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "^6.29.5"
+numpy = "^2.0.1"
+pandas = "^2.2.2"
+matplotlib = "^3.9.1.post1"
+seaborn = "^0.13.2"
+plotly = "^5.23.0"
+nbformat = "^5.10.4"
+geopandas = "^1.0.1"
+pyarrow = "^17.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
