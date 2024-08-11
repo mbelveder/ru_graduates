@@ -2,10 +2,10 @@ import matplotlib
 import seaborn as sns
 
 rc = {
-    "figure.figsize": [10, 10],
+    "figure.figsize": [10, 5],
     "figure.dpi": 300,
     "savefig.dpi": 300,
-    "font.family": "Arial",
+    "font.family": "Helvetica",
     'font.style': 'normal',
     "font.size": 18,
     "axes.labelsize": 18,
@@ -19,40 +19,41 @@ rc = {
     "lines.linewidth": 1.75,
     "patch.linewidth": 1,
 
-    # # grid
+    # grid
     # "axes.grid": True,
-    # "axes.grid.which": "major",
-    # "grid.linestyle": "--",
-    # "grid.linewidth": 0.75,
-    # "grid.alpha": 0.75,
+    "axes.grid.axis": 'x',
+    "axes.grid.which": "major",
+    "grid.linestyle": "--",
+    "grid.linewidth": 0.75,
+    "grid.alpha": 0.75,
 
-    # # ticks
+    # ticks
     # "xtick.top": True,
     # "ytick.right": True,
-    # "xtick.direction": "in",
-    # "ytick.direction": "in",
-    # "xtick.minor.visible": True,
-    # "ytick.minor.visible": True,
-    # "xtick.major.width": 1.25,
-    # "ytick.major.width": 1.25,
-    # "xtick.minor.width": 1,
-    # "ytick.minor.width": 1,
-    # "xtick.major.size": 7,
-    # "ytick.major.size": 7,
-    # "xtick.minor.size": 5,
-    # "ytick.minor.size": 5,
+    "xtick.direction": "in",
+    "ytick.direction": "in",
+    "xtick.minor.visible": False,
+    "ytick.minor.visible": False,
+    "xtick.major.width": 1.25,
+    "ytick.major.width": 1.25,
+    "xtick.minor.width": 1,
+    "ytick.minor.width": 1,
+    "xtick.major.size": 7,
+    "ytick.major.size": 7,
+    "xtick.minor.size": 5,
+    "ytick.minor.size": 5,
 
-    # 'lines.markeredgewidth': 0,  # 1.5,
-    # "lines.markersize": 5,
-    # "lines.markeredgecolor": "k",
-    # 'axes.titlelocation': 'center',
-    # "axes.formatter.limits": [-3, 3],
-    # "axes.formatter.use_mathtext": True,
-    # "axes.formatter.min_exponent": 2,
-    # 'axes.formatter.useoffset': False,
-    # "figure.autolayout": False,
-    # "hist.bins": "auto",
-    # "scatter.edgecolors": "k"
+    'lines.markeredgewidth': 0,  # 1.5,
+    "lines.markersize": 5,
+    "lines.markeredgecolor": "k",
+    'axes.titlelocation': 'center',
+    "axes.formatter.limits": [-3, 3],
+    "axes.formatter.use_mathtext": True,
+    "axes.formatter.min_exponent": 2,
+    'axes.formatter.useoffset': False,
+    "figure.autolayout": False,
+    "hist.bins": "auto",
+    "scatter.edgecolors": "k"
 }
 
 
