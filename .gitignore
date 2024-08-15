@@ -4,7 +4,7 @@ plots/
 .venv/
 /product
 *.pyc
-*.html
+ru_graduates.html
 
 **/__pycache__/
 .pytest_cache
