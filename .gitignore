@@ -1,5 +1,6 @@
 data/
 plots/
+playground.ipynb
 **/.DS_Store
 .venv/
 /product
