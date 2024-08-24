@@ -5,7 +5,7 @@ rc = {
     "figure.figsize": [10, 5],
     "figure.dpi": 300,
     "savefig.dpi": 300,
-    "font.family": "Helvetica",
+    "font.family": "JetBrains Mono",
     'font.style': 'normal',
     "font.size": 18,
     "axes.labelsize": 18,
