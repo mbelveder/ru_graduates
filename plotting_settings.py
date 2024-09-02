@@ -78,5 +78,9 @@ def set_mpl(palette='shap', desat=0.8):
     else:
         sns.set_palette(palette, color_codes=True, desat=desat)
 
+    # Turn off the upper and right spines
+    matplotlib.rcParams['axes.spines.top'] = False
+    matplotlib.rcParams['axes.spines.right'] = False
+
 
 set_mpl()
