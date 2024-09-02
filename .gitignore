@@ -6,6 +6,7 @@ playground.ipynb
 /product
 *.pyc
 ru_graduates.html
+ru_graduates_archive.ipynb
 
 **/__pycache__/
 .pytest_cache
